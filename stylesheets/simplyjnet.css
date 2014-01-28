@@ -8,6 +8,21 @@ body {
 	color: #555555;
 }
 
+/*Headings
+*/
+.featurette-heading {
+	font-family: 'Audiowide', cursive;
+	text-align: center;
+	color: #3F066B;
+	text-shadow: 2px 2px 3px #777777;
+}
+@media (min-width: 992px){
+	.featurette-heading {
+		margin-top: 100px;
+		margin-bottom: 30px;
+	}
+}
+
 /* Navbar customizations
 */
 .navbar {
@@ -36,10 +51,42 @@ body {
 }
 
 .navbar-toggle {
-	background-color: #3F066B;
+	background-color: inherit;
 }
 /*End of navbar
 */
+
+/*Carousel customizations*/
+.carousel {
+margin-bottom: 40px;
+}
+/* End of Carousel*/
+
+/* Checklist section*/
+.requirement_heading_title {
+	text-align: right;
+	font-weight: bold;
+	font-style: italic;
+	color: #444444;
+}
+.match_heading_title {
+	font-weight: bold;
+	font-style: italic;
+	color: #444444;
+}
+.requirement_column {
+	text-align: right;
+}
+.requirement_column > h3 {
+	color: #568A8F;
+	font-weight: bold;
+}
+.requirement_column > img {
+	float: right;
+	vertical-align: top;
+}
+
+/* End of Checlist */
 
 /*Download icon snippet from Slate theme by Jason Costello - https://github.com/jsncostello
 */
