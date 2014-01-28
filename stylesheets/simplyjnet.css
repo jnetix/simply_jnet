@@ -38,6 +38,8 @@ body {
 .navbar {
 	margin-bottom: 0px;
 	border: 1px solid #444444;
+	position: fixed;
+	width: 100%;
 }
 .navbar-default {
 	background-color: #3F066B;	
