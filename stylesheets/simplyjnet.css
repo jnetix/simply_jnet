@@ -103,6 +103,154 @@ body {
 	float: right;
 	vertical-align: top;
 }
+#checklist .row {
+	margin: 2%;
+}
+/*gears*/
+/* CSS3 keyframes */
+@-webkit-keyframes ckw {
+    0% {
+        -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -moz-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+    }
+}
+@-moz-keyframes ckw {
+    0% {
+        -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -moz-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+    }
+}
+@-webkit-keyframes cckw {
+    0% {
+        -moz-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+    }
+    100% {
+        -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+    }
+}
+@-moz-keyframes cckw {
+    0% {
+        -moz-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+    }
+    100% {
+        -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+    }
+}
+
+/* gears */
+@media (min-width: 992px){
+	.gear {
+	    float: none;
+	    position: absolute;
+	    text-align: center;
+
+	    -moz-animation-timing-function: linear;
+	    -moz-animation-iteration-count: infinite;
+	    -moz-animation-direction: normal;
+	    -moz-animation-delay: 0;
+	    -moz-animation-play-state: running;
+	    -moz-animation-fill-mode: forwards;
+
+	    -webkit-animation-timing-function: linear;
+	    -webkit-animation-iteration-count: infinite;
+	    -webkit-animation-direction: normal;
+	    -webkit-animation-delay: 0;
+	    -webkit-animation-play-state: running;
+	    -webkit-animation-fill-mode: forwards;
+	}
+}
+@media (max-width: 992px){
+	.gear {
+		display: none;
+	}
+}
+#gear1 {
+    background: url('../images/g1.png') no-repeat 0 0;
+    height: 85px;
+    left: 31px;
+    top: 45px;
+    width: 85px;
+
+    -moz-animation-name: ckw;
+    -moz-animation-duration: 10s;
+
+    -webkit-animation-name: ckw;
+    -webkit-animation-duration: 10s;
+}
+#gear2 {
+    background: url('../images/g2.png') no-repeat 0 0;
+    height: 125px;
+    left: 105px;
+    top: 10px;
+    width: 125px;
+
+    -moz-animation-name: cckw;
+    -moz-animation-duration: 16.84s;
+
+    -webkit-animation-name: cckw;
+    -webkit-animation-duration: 16.84s;
+}
+#gear3 {
+    background: url('../images/g3.png') no-repeat 0 0;
+    height: 103px;
+    left: 149px;
+    top: 118px;
+    width: 103px;
+
+    -moz-animation-name: ckw;
+    -moz-animation-duration: 13.5s;
+
+    -webkit-animation-name: ckw;
+    -webkit-animation-duration: 13.5s;
+}
+#gear4 {
+    background: url('../images/g4.png') no-repeat 0 0;
+    height: 144px;
+    left: 46px;
+    top: 173px;
+    width: 144px;
+
+    -moz-animation-name: cckw;
+    -moz-animation-duration: 20.2s;
+
+    -webkit-animation-name: cckw;
+    -webkit-animation-duration: 20.2s;
+}
+/*end of gears*/
+
+/*arrows*/
+@media (min-width: 992px){
+	.arrow-right {
+		margin-top: 2%;
+		font-size: 120px;
+		font-family: Helvetica, Arial, sans-serif;
+		color: #820DE3;
+		text-shadow: 5px 5px 10px #444444; 
+		text-align: left;
+	}
+}
+@media (max-width: 992px){
+	.arrow-right {
+		display: none;
+	}
+}
+.arrow-right:hover {
+	text-align: right;
+}
+/*End of arrows*/
+
 /* End of Checklist */
 
 /* About me */
@@ -130,7 +278,7 @@ body {
 }
 
 #contacts img:hover{
-	background-color: #CD98F9;
+	background-color: #84D4DB;
 	border-radius: 50%;
 	box-shadow: 10px 10px 5px #FFF4CB;
 }
