@@ -14,3 +14,9 @@ function parallax(){
 $(window).scroll(function(e){
     parallax();
 });
+
+/*Go to flashing fish*/
+$("a.fish_link").click(function(){
+	//alert("yes link clicked");
+    $('#myCarousel').carousel(2);
+ });
