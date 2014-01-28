@@ -99,6 +99,12 @@ margin-bottom: 40px;
 }
 /* End of Checklist */
 
+/* About me */
+.featurette-image {
+	box-shadow: 5px 5px 2px #777777;
+}
+/*End of about me */
+
 /*Favourites*/
 #favourites {
 	text-align: center;
@@ -107,16 +113,21 @@ margin-bottom: 40px;
 	font-weight: bold;
 	color: #568A8F;
 }
+#favourites .img-square {
+	box-shadow: 10px 10px 5px #777777;
+}
 /*End of Favourites*/
 
 /* Contacts */
 #contacts {
 	text-align: center;
 }
-/*
+
 #contacts img:hover{
-	background-color: red;
-}*/
+	background-color: #CD98F9;
+	border-radius: 50%;
+	box-shadow: 10px 10px 5px #FFF4CB;
+}
 
 /* End of Contacts */
 
