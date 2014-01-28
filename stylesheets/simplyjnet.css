@@ -23,6 +23,16 @@ body {
 	}
 }
 
+.bg {
+  background: url(../images/ps_neutral.png) repeat;
+  position: fixed;
+  width: 100%;
+  height: 300%;
+  top:0;
+  left:0;
+  z-index: -1;
+}
+
 /* Navbar customizations
 */
 .navbar {
@@ -108,11 +118,22 @@ margin-bottom: 40px;
 
 /* End of Contacts */
 
+/* footer */
+footer {
+	font-size: 10px;
+	color: #999999;
+	background: url(../images/footer_bkg2.png);
+	background-color: #3F066B;
+	margin-top: 5%;
+	padding: 2%;
+}
+/* End of footer */
+
 /*Download icon snippet from Slate theme by Jason Costello - https://github.com/jsncostello
 */
 .zip_download_link {
-  display: block;
-  float: right;
+  display: inline-block;
+  /*float: right;*/
   width: 90px;
   height:70px;
   text-indent: -5000px;
@@ -121,8 +142,8 @@ margin-bottom: 40px;
 }
 
 .tar_download_link {
-  display: block;
-  float: right;
+  display: inline-block;
+  /*float: right;*/
   width: 90px;
   height:70px;
   text-indent: -5000px;
