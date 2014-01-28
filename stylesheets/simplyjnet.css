@@ -3,6 +3,44 @@
 * Contributors: Janette Yuen
 */
 
+body {
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	color: #555555;
+}
+
+/* Navbar customizations
+*/
+.navbar {
+	margin-bottom: 0px;
+	border: 1px solid #444444;
+}
+.navbar-default {
+	background-color: #3F066B;	
+}
+
+.navbar-default .navbar-brand {
+	color: #FFF4CB;
+	font-family: 'Audiowide', cursive;
+}
+.navbar-default .navbar-brand:hover {
+	color: #FFF4CB;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #999999;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	background-color: #820DE3;
+	color: #FFF4CB;
+}
+
+.navbar-toggle {
+	background-color: #3F066B;
+}
+/*End of navbar
+*/
+
 /*Download icon snippet from Slate theme by Jason Costello - https://github.com/jsncostello
 */
 .zip_download_link {
