@@ -259,6 +259,14 @@ body {
 
 /* End of Checklist */
 
+/* Portfolio section styles */
+#portfolio h3 {
+  font-weight: bold;
+  color: #568A8F;
+}
+/* END of Portfolio styles*/
+
+
 /* About me */
 .featurette-image {
 	box-shadow: 5px 5px 2px #777777;
