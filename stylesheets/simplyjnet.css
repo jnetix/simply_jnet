@@ -251,6 +251,7 @@ body {
 		display: none;
 	}
 }
+
 .arrow-right:hover {
 	text-align: right;
 }
@@ -272,8 +273,12 @@ body {
 	font-weight: bold;
 	color: #568A8F;
 }
-#favourites .img-square {
-	box-shadow: 10px 10px 5px #777777;
+#favourites .img-circle {
+	box-shadow: 5px 5px 2px #777777;
+}
+#favourites .img-circle:hover {
+  width: 200px;
+  height: 200px;
 }
 /*End of Favourites*/
 
