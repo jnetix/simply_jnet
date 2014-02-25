@@ -1,6 +1,6 @@
 /*!
 * Stylesheet for SimplyJnet example page
-* Contributors: Janette Yuen
+* Contributors: Janette Yuen 
 */
 
 body {
@@ -38,6 +38,9 @@ body {
 	padding-top: 35px; 
 	margin-top: 35px;
 }
+/* End of Heading styles
+*/
+
 /* Navbar customizations
 */
 .navbar {
@@ -70,7 +73,7 @@ body {
 .navbar-toggle {
 	background-color: inherit;
 }
-/*End of navbar
+/*End of navbar styles
 */
 
 /*Carousel customizations*/
@@ -83,7 +86,7 @@ body {
 .movie-wrapper {
 	text-align: center;
 }
-/* End of Carousel*/
+/* End of Carousel styles*/
 
 /* Checklist section*/
 .requirement_heading_title {
@@ -111,7 +114,8 @@ body {
 #checklist .row {
 	margin: 2%;
 }
-/*gears*/
+
+/*gears - http://css.dzone.com/articles/css3-animated-gears*/
 /* CSS3 keyframes */
 @-webkit-keyframes ckw {
     0% {
@@ -154,7 +158,7 @@ body {
     }
 }
 
-/* gears */
+/* gears  styles*/
 @media (min-width: 992px){
 	.gear {
 	    float: none;
@@ -235,7 +239,7 @@ body {
 }
 /*end of gears*/
 
-/*arrows*/
+/*Arrows Styles*/
 @media (min-width: 992px){
 	.arrow-right {
 		margin-top: 2%;
@@ -256,7 +260,6 @@ body {
 	text-align: right;
 }
 /*End of arrows*/
-
 /* End of Checklist */
 
 /* Portfolio section styles */
@@ -314,7 +317,7 @@ footer {
 }
 /* End of footer */
 
-/*Download icon snippet from Slate theme by Jason Costello - https://github.com/jsncostello
+/*Download icons from Slate theme by Jason Costello - https://github.com/jsncostello
 */
 .zip_download_link {
   display: inline-block;
@@ -344,4 +347,4 @@ footer {
 .tar_download_link:hover {
   background: url(../images/sprite_download.png) no-repeat top right;
 }
-/*END of Slate snippet*/
+/*END of Slate icon styles*/
