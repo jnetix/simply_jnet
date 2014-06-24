@@ -1,0 +1,33 @@
+/*
+* Stylesheet for DS Drag & Drop Demo
+*
+*/
+
+.navbar{
+	margin-bottom: 0px;
+	background-color: #302F30;
+}
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	color: #555555;
+}
+
+.row{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.header h3{
+	font-family: "Courier New", Courier, monospace;
+	font-weight: 600;
+}
+
+footer {
+	margin-left: 10px;
+}
+
+/*.workspace{
+	height: 600px;
+}
+*/

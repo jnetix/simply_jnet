@@ -1,0 +1,51 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+     width="612px" height="792px" viewBox="0 0 612 792" enable-background="new 0 0 612 792" xml:space="preserve">
+<g>
+    <g style="fill:none;stroke:#D3D3D3;stroke-width:5;">
+
+        <text text-anchor="middle" x="2475" y="650" stroke="none" fill="black" font-family="Arial,Helvetica" font-size="75">20"</text>
+        <polyline points="2250,400 2350,400, 2350,900 2250,900"/>
+
+
+        <text text-anchor="middle" x="1225" y="1350" stroke="none" fill="black" font-family="Arial,Helvetica" font-size="75">5'5"</text>
+        <polyline points="400,1100 400,1200, 2050,1200 2050,1100"/>
+
+        
+        <text text-anchor="middle" x="650" y="70" stroke="none" fill="black" font-family="Arial,Helvetica" font-size="75">1'7"</text>
+        <polyline points="400, 200 400, 100, 900,100 900,650"/>
+
+        <text text-anchor="middle" x="1225" y="70" stroke="none" fill="black" font-family="Arial,Helvetica" font-size="75">2'3"</text>
+        <polyline points="900, 100 1550, 100, 1550,650"/>
+
+
+        <text text-anchor="middle" x="20" y="500" stroke="none" fill="black" font-family="Arial,Helvetica" font-size="75">7"</text>
+        <polyline points="200, 400 100, 400, 100,585 1650,585"/>
+    </g>
+</g>
+
+        <!-- Lines in Block: -->
+<g transform="translate(400 400)">
+    <g style="fill:none;stroke:black;stroke-width:6;">
+        <rect x="0" y="0" width="1650" height="500" />
+        <ellipse cx="500" cy="250" rx="200" ry="160"/>
+        <circle style="stroke-width:5;" cx="500" cy="185" r="20"/>
+        <circle style="stroke-width:3;" cx="500" cy="185" r="35"/>
+        <ellipse cx="1150" cy="250" rx="200" ry="160"/>
+        <circle style="stroke-width:5;" cx="1150" cy="185" r="20"/>
+        <circle style="stroke-width:3;" cx="1150" cy="185" r="35"/>
+    </g>
+</g>
+
+<g transform="translate(1225 100 )">
+    <text text-anchor="middle" x="0" y="135" stroke="none" fill="black" font-family="Arial,Helvetica" font-size="60">1.5" DRAIN</text>
+</g>
+<g transform="translate(790 -1700 ) scale(5)">
+    <line stroke="#000000" stroke-miterlimit="10" x1="86.609" y1="400" x2="86.609" y2="434.79"/>
+    <line x1="28.834" y1="451.735" x2="86.609" y2="434.79"/>
+    <line fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" x1="32.277" y1="450.726" x2="86.609" y2="434.79"/>
+    <polygon points="33.679,452.912 28.834,451.735 32.275,448.128           "/>
+    <line fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" x1="141.395" y1="450.726" x2="87.062" y2="434.79"/>
+    <polygon points="141.396,448.128 144.838,451.735 139.993,452.912            "/>
+</g>
+
+</svg>
